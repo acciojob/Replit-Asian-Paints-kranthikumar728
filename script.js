@@ -3,9 +3,9 @@ const changeBtn = document.getElementById("change_button");
 
 changeBtn.addEventListener('click', () => {
 	const blockId = document.getElementById('block_id').value
-	const color = document.getElementById('color_id').value
+	const color = document.getElementById('colour_id').value
 	const blockEle = document.getElementById(blockId);
-	blockEle.style.backgroundColor = color;
+	blockEle.style.backgroundColor = colour;
 })
 
 const resetBtn = document.getElementById('reset');
